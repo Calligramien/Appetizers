@@ -12,6 +12,7 @@
 		A9230A2529AF774A0091E757 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9230A2429AF774A0091E757 /* LoadingView.swift */; };
 		A9230A2729AF78470091E757 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9230A2629AF78470091E757 /* Color+Ext.swift */; };
 		A9230A2B29AF8D000091E757 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9230A2A29AF8D000091E757 /* RemoteImage.swift */; };
+		A9230A3C29AFAB600091E757 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9230A3B29AFAB600091E757 /* AppetizerDetailView.swift */; };
 		A9AC0A5A29AE0BF600168626 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AC0A5929AE0BF600168626 /* AppetizersApp.swift */; };
 		A9AC0A5C29AE0BF600168626 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AC0A5B29AE0BF600168626 /* AppetizerTabView.swift */; };
 		A9AC0A5E29AE0BF700168626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9AC0A5D29AE0BF700168626 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		A9230A2429AF774A0091E757 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		A9230A2629AF78470091E757 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		A9230A2A29AF8D000091E757 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		A9230A3B29AFAB600091E757 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		A9AC0A5629AE0BF600168626 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AC0A5929AE0BF600168626 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		A9AC0A5B29AE0BF600168626 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				A9230A2029AF66620091E757 /* AppetizerListViewModel.swift */,
 				A9AC0A6729AE0D7000168626 /* AppetizerListView.swift */,
+				A9230A3B29AFAB600091E757 /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				A9AC0A7229AE623B00168626 /* NetworkManager.swift in Sources */,
 				A9AC0A5A29AE0BF600168626 /* AppetizersApp.swift in Sources */,
 				A9230A2B29AF8D000091E757 /* RemoteImage.swift in Sources */,
+				A9230A3C29AFAB600091E757 /* AppetizerDetailView.swift in Sources */,
 				A9AC0A7429AE674100168626 /* AppetizerError.swift in Sources */,
 				A9230A2329AF6CB20091E757 /* Alert.swift in Sources */,
 				A9AC0A6829AE0D7000168626 /* AppetizerListView.swift in Sources */,
