@@ -16,6 +16,7 @@
 		A92A2BF729B0B9830099853F /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A2BF629B0B9830099853F /* AccountViewModel.swift */; };
 		A92A2BF929B0F54B0099853F /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A2BF829B0F54B0099853F /* String+Ext.swift */; };
 		A92A2BFB29B101FC0099853F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A2BFA29B101FC0099853F /* User.swift */; };
+		A93AE76E29B11EC7009CA8CE /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AE76D29B11EC7009CA8CE /* EmptyState.swift */; };
 		A98856C329B0A61E001C1204 /* AppetizerButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98856C229B0A61E001C1204 /* AppetizerButtons.swift */; };
 		A98856C529B0A702001C1204 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98856C429B0A702001C1204 /* XDismissButton.swift */; };
 		A9AC0A5A29AE0BF600168626 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AC0A5929AE0BF600168626 /* AppetizersApp.swift */; };
@@ -41,6 +42,7 @@
 		A92A2BF629B0B9830099853F /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		A92A2BF829B0F54B0099853F /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		A92A2BFA29B101FC0099853F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A93AE76D29B11EC7009CA8CE /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		A98856C229B0A61E001C1204 /* AppetizerButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerButtons.swift; sourceTree = "<group>"; };
 		A98856C429B0A702001C1204 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		A9AC0A5629AE0BF600168626 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +156,7 @@
 		A9230A3629AF92FD0091E757 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A93AE76C29B11EB7009CA8CE /* Empty States */,
 				A98856C129B0A60B001C1204 /* Buttons */,
 				A9230A3A29AF93360091E757 /* UIKit Components */,
 				A9230A3929AF93170091E757 /* Image */,
@@ -184,6 +187,14 @@
 				A9230A2429AF774A0091E757 /* LoadingView.swift */,
 			);
 			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		A93AE76C29B11EB7009CA8CE /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				A93AE76D29B11EC7009CA8CE /* EmptyState.swift */,
+			);
+			path = "Empty States";
 			sourceTree = "<group>";
 		};
 		A98856C129B0A60B001C1204 /* Buttons */ = {
@@ -318,6 +329,7 @@
 				A9AC0A5A29AE0BF600168626 /* AppetizersApp.swift in Sources */,
 				A9230A2B29AF8D000091E757 /* RemoteImage.swift in Sources */,
 				A92A2BF929B0F54B0099853F /* String+Ext.swift in Sources */,
+				A93AE76E29B11EC7009CA8CE /* EmptyState.swift in Sources */,
 				A9230A3C29AFAB600091E757 /* AppetizerDetailView.swift in Sources */,
 				A9AC0A7429AE674100168626 /* AppetizerError.swift in Sources */,
 				A9230A2329AF6CB20091E757 /* Alert.swift in Sources */,
