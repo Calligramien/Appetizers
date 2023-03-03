@@ -43,8 +43,17 @@ struct AppetizerDetailView: View {
                 order.add(appetizer: appetizer)
                 isShowingDetail = false
             } label: {
-                AppetizerButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
+//                Old way below for button - Commented Code
+//                AppetizerButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
+                Text("$\(appetizer.price, specifier: "%.2f") - Add to Order")
             }
+            .modifier(StandardButtonStyle())
+//            Other way to call your standardButtonStyle in CustomModifiers (lines 20 to 24)
+//            .standardButtonStyle()
+            
+//            .buttonStyle(.bordered)
+//            .tint(.brandPrimary)
+//            .controlSize(.large)
             .padding(.bottom, 30)
         }
         .frame(width: 300, height: 525)
