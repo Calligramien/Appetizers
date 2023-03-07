@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A91D5F7A29B74BA000DCEF04 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D5F7929B74BA000DCEF04 /* Date+Ext.swift */; };
 		A9230A2129AF66630091E757 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9230A2029AF66620091E757 /* AppetizerListViewModel.swift */; };
 		A9230A2329AF6CB20091E757 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9230A2229AF6CB20091E757 /* Alert.swift */; };
 		A9230A2529AF774A0091E757 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9230A2429AF774A0091E757 /* LoadingView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A91D5F7929B74BA000DCEF04 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		A9230A2029AF66620091E757 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		A9230A2229AF6CB20091E757 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		A9230A2429AF774A0091E757 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			children = (
 				A9230A2629AF78470091E757 /* Color+Ext.swift */,
 				A92A2BF829B0F54B0099853F /* String+Ext.swift */,
+				A91D5F7929B74BA000DCEF04 /* Date+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				A9AC0A6E29AE1B3E00168626 /* Appetizer.swift in Sources */,
 				A9AC0A7029AE5C6800168626 /* AppetizerListCell.swift in Sources */,
 				A98856C529B0A702001C1204 /* XDismissButton.swift in Sources */,
+				A91D5F7A29B74BA000DCEF04 /* Date+Ext.swift in Sources */,
 				A9AC0A6A29AE0D7E00168626 /* AccountView.swift in Sources */,
 				A956743E29B2179F00A2A216 /* Order.swift in Sources */,
 				A92A2BF729B0B9830099853F /* AccountViewModel.swift in Sources */,
